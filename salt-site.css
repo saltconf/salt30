@@ -11,6 +11,10 @@
 /* General styling
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+html {
+    padding-bottom: 50px;
+}
+
 body {
     width: 100%;
     font-family: 'Avenir';
