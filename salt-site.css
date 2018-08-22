@@ -104,12 +104,14 @@ hr {
 
 #content ul li:nth-child(even):before {
     margin-right: 0.5em;
-    content: "\1F3C4\200D\2640\FE0F";
+    /* content: "\1F3C4\200D\2640\FE0F"; */
+    content: "\1F3C4"
 }
 
 #content ul li:nth-child(odd):before {
     margin-right: 0.5em;
-    content: "\1F3C4\200D\2642\FE0F";
+    /* content: "\1F3C4\200D\2642\FE0F"; */
+    content: "\1F3C4";
 }
 
 /* Navigation menu
