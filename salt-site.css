@@ -42,6 +42,7 @@ table.reg th {
 
 table.reg {
     width: 100%;
+    margin: 0 auto;
 }
 
 hr {
