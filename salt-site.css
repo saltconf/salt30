@@ -96,7 +96,20 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #content ul {
-    padding-left: 18px;
+    /* padding-left: 18px; */
+    padding-left: 0px;
+    line-height: 2.5em;
+    list-style-type: none;
+}
+
+#content ul li:nth-child(even):before {
+    margin-right: 0.5em;
+    content: "🏄‍♀️"
+}
+
+#content ul li:nth-child(odd):before {
+    margin-right: 0.5em;
+    content: "🏄‍♂️"
 }
 
 /* Navigation menu
