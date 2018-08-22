@@ -33,11 +33,25 @@ a:hover {
 }
 
 table.reg tr {
-    text-align: left;
+    text-align: center;
+}
+
+table.reg th {
+    color: #febb36;
 }
 
 table.reg {
-    width: 60%;
+    width: 100%;
+}
+
+hr {
+    border-style: solid;
+    border-color: #febb36;
+    border-width: 0.5px;
+}
+
+.alert {
+    color: #febb36;
 }
 
 /* Header
@@ -131,7 +145,7 @@ table.reg {
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 550px) {
     #logo {
         min-height: 159px;
     }
@@ -163,6 +177,10 @@ table.reg {
         padding-top: 0em;
         border-top: none;
     }
+    table.reg {
+        width: 75%;
+    }
+
 
 }
 
