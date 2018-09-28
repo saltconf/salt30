@@ -27,6 +27,7 @@ body {
 }
 
 a {
+    font-weight: 400;
     color: #3284bf;
     text-decoration: none;
     border-bottom: 1px solid;
@@ -100,19 +101,23 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #content ul {
+    padding-left: 1.25em;
+}
+
+#speakers {
     /* padding-left: 18px; */
     padding-left: 0px;
     line-height: 2.5em;
     list-style-type: none;
 }
 
-#content ul li:nth-child(even):before {
+#speakers li:nth-child(even):before {
     margin-right: 0.5em;
     /* content: "\1F3C4\200D\2640\FE0F"; */
     content: "\1F3C4"
 }
 
-#content ul li:nth-child(odd):before {
+#speakers li:nth-child(odd):before {
     margin-right: 0.5em;
     /* content: "\1F3C4\200D\2642\FE0F"; */
     content: "\1F3C4";
