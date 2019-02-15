@@ -295,6 +295,26 @@ hr {
 
 }
 
+table.announce {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+
+table.announce td {
+    padding: 0px 0px;
+    margin: 0px;
+    vertical-align: top;
+}
+
+table.announce tr {
+    margin-bottom: 10px;
+}
+
+table.announce td.time {
+    width: 70px;
+    color: #cac9c8;
+}
+
 /* Potential program schedule formatting
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 span.titledate {padding-left:20px}
@@ -311,9 +331,6 @@ table.program {
 table.program td {
     padding: 5px 10px;
     margin: 0px;
-}
-
-table.program td {
     vertical-align: top;
 }
 
