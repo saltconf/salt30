@@ -324,7 +324,10 @@ ol.pastsalts li:before {content: counter(item) ": "; counter-increment: item }
 
 
 table.program {
-    /* border-spacing: 0px 0px; */
+    border-collapse: collapse;
+    border: 2px solid white;
+    /* border-spacing: 2px; */
+    border-spacing: 0px 0px;
     font-size: 14px;
 }
 
@@ -332,6 +335,7 @@ table.program td {
     padding: 5px 10px;
     margin: 0px;
     vertical-align: top;
+    border: 2px solid white;
 }
 
 td.time {
@@ -412,11 +416,20 @@ tr.talkChairinfo td, tr.invitedChairinfo td, tr.posterChairinfo td {
     border-top: 10px solid white;
 }
 
-tr.posterInfoFri, tr.posterInfoSat {
-    background-color: #8FBAC8;
-    border-spacing: 0px;
-    display: none;
+tr.posterInfoLightTwo, tr.posterInfoLightOne {
+    background-color: #DAD7CB;
+    /* background-color: #8FBAC8; */
+    /* border-spacing: 0px; */
+    /* display: none; */
 }
+
+tr.posterInfoLightTwo td, tr.posterInfoLightOne td {
+    border-style: none;
+}
+
+/* tr.postertalk td { */
+/*     border-bottom: 2px solid white; */
+/* } */
 
 #friday, #saturday, #sunday {
     margin-top: 40px;
@@ -426,4 +439,15 @@ tr.posterInfoFri, tr.posterInfoSat {
 }
 
 .program a {background-position: right; background-repeat: no-repeat; padding-right: 0px;background-image:none}
-.program a:focus, .program a:hover {color:#820000; background-image:none}
+/* .program a:focus, .program a:hover {color:#820000; background-image:none} */
+
+tr.hidden {
+    display: none;
+}
+
+#lightTwoPosterArr, #lightOnePosterarr {
+    width: 12px;
+    display: inline-block;
+}
+#lightTwoPosterArr.collapsed:before, #lightOnePosterArr.collapsed:before {content: '▸ '; }
+#lightTwoPosterArr:not(.collapsed):before, #lightOnePosterArr:not(.collapsed):before {content: '▾ '; }

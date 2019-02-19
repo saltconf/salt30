@@ -1,6 +1,15 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="salt-site.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+   function lightning(cls, arr) {
+       var rows = document.getElementsByClassName(cls);
+       for (var i = 0; i < rows.length; i++) {
+	         rows[i].classList.toggle("hidden");
+       }
+       document.getElementById(arr).classList.toggle("collapsed");
+   }
+  </script>
 </head>
 <html>
   <body>
@@ -150,10 +159,82 @@
                   <td></td>
                 </tr>
                 <tr class="posterChairinfo"><td colspan="3">Poster Session</td></tr>
-                <tr class="poster">
+                <tr class="postertalk">
                   <td class="time">10:15-11:00</td>
-                  <td class="title">Lightning Round 1</td>
-                  <td></td>
+                  <td class="title" colspan="2">
+                    <span id="lightOnePosterArr" class="collapsed"></span>
+                    <a id="lightOnePosterSwitch" href="javascript:void(0)" onclick="lightning('posterInfoLightOne', 'lightOnePosterArr')">Lightning Round 1</a>
+                  </td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">`Might' as a generator of alternatives: the view from reasoning</td>
+                  <td class="authors">Salvador Mascarenhas and Léo Picat</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Explaining ignorance inferences and roundness effects of modified numerals</td>
+                  <td class="authors">Alexandre Cremers, Elizabeth Coppock, Jakub Dotlacil and Floris Roelofsen</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Unifying Universal and Existential wh’s in Mandarin</td>
+                  <td class="authors">Mingming Liu</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Free Choice Disjunction as a Rational Speech Act</td>
+                  <td class="authors">Lucas Champollion, Anna Alsop and Ioana Grosu</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Temporal information and definite descriptions</td>
+                  <td class="authors">Cécile Meier</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">When warmer is less hot: Thai inchoatives in defense of Horn’s childre</td>
+                  <td class="authors">Nattanun Chanchaochai and Jérémy Zehr</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Making wh-phrases dynamic: A case study of Mandarin wh-conditionals</td>
+                  <td class="authors">Haoze  Li</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Property concepts in Basaá and the ontology of gradability across category</td>
+                  <td class="authors">Emily Hanink, Andrew Koontz-Garboden and Emmanuel Moselly-Makasso</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Composition and projection of co-speech gestures</td>
+                  <td class="authors">Maria Esipova</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Overt and covert proportional partitives</td>
+                  <td class="authors">Robert Pasternak</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Propositional Attitude Reports: the Syntax of Presupposition & Assertion</td>
+                  <td class="authors">Kajsa Djarv</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">From think to remember : how CPs and NPs combine with attitudes in Buryat</td>
+                  <td class="authors">Tatiana Bondarenko</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Singular "which"; mention-some; and variable scope uniqueness</td>
+                  <td class="authors">Aron Hirsch and Bernhard Schwarz</td>
+                </tr>
+                <tr class="posterInfoLightOne hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Disjoining questions</td>
+                  <td class="authors">Morwenna Hoeks and Floris Roelofsen</td>
                 </tr>
                 <tr class="break">
                   <td class="time">11:00-11:15</td>
@@ -190,8 +271,80 @@
                 <tr class="posterChairinfo"><td colspan="3">Poster Session</td></tr>
                 <tr class="postertalk">
                   <td class="time">3:15-4:00</td>
-                  <td class="title">Lightning Round 2</td>
-                  <td></td>
+                  <td class="title" colspan="2">
+                    <span id="lightTwoPosterArr" class="collapsed"></span>
+                    <a id="lightTwoPosterSwitch" href="javascript:void(0)" onclick="lightning('posterInfoLightTwo', 'lightTwoPosterArr')">Lightning Round 2</a>
+                  </td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Conditional Antecedents as Polar Free Relatives</td>
+                  <td class="authors">Gregor Williamson</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Unconditionals and Free Choice Unified</td>
+                  <td class="authors">Anna Szabolcsi</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">The dynamics of negative concord</td>
+                  <td class="authors">Jeremy Kuhn</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Counterfactuals and indeterminacy</td>
+                  <td class="authors">Paolo Santorio</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">At-issueness in direct quotation: the case of Mayan quotatives</td>
+                  <td class="authors">Scott Anderbois</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Types of Pluractionality and Plurality Across Domains in ʔayʔaǰuθəm</td>
+                  <td class="authors">Gloria Mellesmoen and Marianne Huijsmans</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Default agreement with subjective assertions</td>
+                  <td class="authors">Deniz Rudin and Andrea Beltrama</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Getting quantifying-into questions uniformly: functionality; exhaustivity; and QVE</td>
+                  <td class="authors">Yimei Xiang</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Epistemic stance without epistemic modals: the case of the presumptive future</td>
+                  <td class="authors">Michela Ippolito and Donka Farkas</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Ingredients of excess: A study of Vietnamese quá</td>
+                  <td class="authors">Anne Nguyen and Michael Yoshitaka Erlewine</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Additives pitching in: L*+H signals ordered Focus alternatives</td>
+                  <td class="authors">Alexander Göbel</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">The Search for Truth: Apposatives Weigh In</td>
+                  <td class="authors">Margaret Kroll and Amanda Rysling</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Modal superlatives as degree descriptions</td>
+                  <td class="authors">Nicoletta Loccioni</td>
+                </tr>
+                <tr class="posterInfoLightTwo hidden">
+                  <td class="time">&nbsp;</td>
+                  <td class="title">Pictorial narratives and temporal refinement</td>
+                  <td class="authors">Tim Fernando</td>
                 </tr>
                 <tr class="break">
                   <td class="time">4:00-4:30</td>
@@ -200,8 +353,7 @@
                 </tr>
                 <tr class="poster">
                   <td class="time">4:30-6:30</td>
-                  <td class="title">Poster Session</td>
-                  <td></td>
+                  <td class="title" colspan="2">Posters on display</td>
                 </tr>
               </tbody>
             </table>
@@ -260,3 +412,16 @@
     </div>
   </body>
 </html>
+
+<!--
+<tr class="posterInfoLightTwo hidden">
+  <td class="time">&nbsp;</td>
+  <td class="title">A Semantics and Pragmatics for Transparent Free Relatives</td>
+  <td class="authors">Jesse Harris</td>
+</tr>
+<tr class="posterInfoLightTwo hidden">
+  <td class="time">&nbsp;</td>
+  <td class="title">Mixtures and implicature in Persian m-reduplication</td>
+  <td class="authors">Ryan Walter Smith</td>
+</tr>
+-->
