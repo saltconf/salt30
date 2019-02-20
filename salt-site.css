@@ -16,6 +16,7 @@ html {
 }
 
 body {
+    margin: 8px 0px;
     width: 100%;
     font-family: 'Avenir';
     /* font-family: 'Lato', sans-serif; */
@@ -154,6 +155,11 @@ hr {
     color: #3284bf;
 }
 
+#lsa-logo {
+    width: 50%;
+    margin: 1em 0em;
+}
+
 
 /* Media queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -205,8 +211,9 @@ hr {
     table.reg {
         width: 75%;
     }
-
-
+    #lsa-logo {
+        width: 90%;
+    }
 }
 
 /* Grid
