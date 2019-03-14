@@ -320,6 +320,12 @@ hr {
 
 }
 
+.container:after,
+.row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 table.announce {
     border-collapse:separate;
     border-spacing:0 15px;
