@@ -469,7 +469,12 @@ tr.posterInfoLightTwo td, tr.posterInfoLightOne td {
     border-top: 3px solid #febb36;
 }
 
-.program a {background-position: right; background-repeat: no-repeat; padding-right: 0px;background-image:none}
+.program a {
+    color: #000;
+    /* border-bottom-style: dotted; */
+    /* font-weight: 500; */
+    line-height: 1.5em;
+}
 /* .program a:focus, .program a:hover {color:#820000; background-image:none} */
 
 tr.hidden {
