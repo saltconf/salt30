@@ -475,6 +475,10 @@ tr.posterInfoLightTwo td, tr.posterInfoLightOne td {
     /* font-weight: 500; */
     line-height: 1.5em;
 }
+
+span.materials a {
+    color: #3284bf;
+}
 /* .program a:focus, .program a:hover {color:#820000; background-image:none} */
 
 tr.hidden {
