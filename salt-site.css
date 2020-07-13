@@ -430,11 +430,11 @@ tr.talk, tr.talkChairinfo {
 /* } */
 
 tr.postertalk, tr.poster {
-    height: 70px;
+    height: 50px;
 }
 
 tr.posterChairinfo, tr.postertalk, tr.poster {
-    background-color: #DAD7CB;
+    background-color: #C9C9C9;
 }
 
 tr.invited {
@@ -456,7 +456,7 @@ tr.talkChairinfo td, tr.invitedChairinfo td, tr.posterChairinfo td {
 }
 
 tr.posterInfoLightTwo, tr.posterInfoLightOne {
-    background-color: #DAD7CB;
+    background-color: #C9C9C9;
     /* background-color: #8FBAC8; */
     /* border-spacing: 0px; */
     /* display: none; */
@@ -470,7 +470,7 @@ tr.posterInfoLightTwo td, tr.posterInfoLightOne td {
 /*     border-bottom: 2px solid white; */
 /* } */
 
-#friday, #saturday, #sunday, #alts {
+#friday, #saturday, #sunday, #alts, #monday, #tuesday, #wednesday, #thursday, #poster1, #poster2 {
     margin-top: 40px;
     padding-top: 20px;
     /* border-bottom: 3px solid #B31B1B; */
